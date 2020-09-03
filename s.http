@@ -1,0 +1,31 @@
+GET http://localhost:3000/api/userInfo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmNTBhNTY5MzY5Nzc0MDU3YzQ5YjhhMSIsImlhdCI6MTU5OTEyMTkyNn0.LDENz8zhd8figreZHuHJr9OHMinH5IqTSlr5rSrha2A
+
+###
+###
+POST http://localhost:3000/api/login
+Content-Type: application/json
+
+{
+  "username": "xcr",
+  "password": "1231232"
+}
+###
+
+###
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "username": "xcr",
+  "password": "1231232"
+}
+
+###
+
+###
+GET http://localhost:3000/api/users
+Accept: application/json
+
+###
+

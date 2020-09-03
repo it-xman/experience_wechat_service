@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^5.0.0-alpha.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.2"
+  }
+}
